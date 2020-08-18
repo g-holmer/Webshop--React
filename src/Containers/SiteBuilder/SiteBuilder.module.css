@@ -1,0 +1,17 @@
+.SiteBuilder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  clip-path: circle(30%);
+  object-fit: contain;
+  background: blue;
+  color: white;
+  user-select: none;
+}

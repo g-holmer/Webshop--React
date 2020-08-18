@@ -1,0 +1,68 @@
+.Checkout__Wrapper {
+  border-radius: 8px;
+  padding: 0 10px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(238, 235, 235);
+  transition: ease-in 0.5s;
+  margin: 14px 0 0 0;
+  z-index: 1;
+}
+@media (min-width: 700px) {
+  .Cart__Wrapper {
+    padding: 0 20px 20px 20px;
+    right: 0;
+  }
+}
+.NoItems {
+  text-align: center;
+  padding: 30px;
+}
+.Checkout {
+  margin-top: 20px;
+  background: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-color: rgb(0, 0, 0) rgb(255, 255, 255);
+  scrollbar-width: thick;
+  overflow-x: hidden;
+  max-height: 500px;
+}
+
+.Overlay {
+  display: flex;
+  justify-content: center;
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+.Btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background: linear-gradient(to bottom, #7892c2 5%, #1e3045 100%);
+  background-color: #7892c2;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  max-width: 350px;
+  align-self: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+}
+.Checkout__Top {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

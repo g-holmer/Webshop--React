@@ -1,0 +1,9 @@
+.Products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(440px, 1fr);
+}
+.h2 {
+  color: white;
+  font-size: 35px;
+}

@@ -1,0 +1,32 @@
+.CheckoutItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.Checkout__img {
+  max-height: 170px;
+  max-width: 170px;
+}
+.Checkout__name {
+  margin-left: 20px;
+  display: flex;
+  align-self: center;
+}
+.Checkout__price {
+  margin-left: 20px;
+  display: flex;
+  align-self: center;
+}
+.Checkout__pull_right {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.Checkout__qty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px 0 8px;
+}
